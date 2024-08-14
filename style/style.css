@@ -34,6 +34,9 @@ nav ul{
     max-width: 80%;
     margin: 0 auto;
 }
+.icone{
+    display: none;
+}
 .nav-content h1{
     font-size: 1.5rem;
     color: white;
@@ -92,8 +95,11 @@ nav ul{
     top: 45%;
     left: 15%;
 }
-
+/* responsive for mobail  */
 @media screen and (max-width:576px) {
+        .icone{
+            display: block;
+        }
         .nav-bar{
             display: none;
         }
@@ -108,4 +114,22 @@ nav ul{
             left: 20%;
             font-size: 1.2rem;
         }
+    
+}
+/* responsive for tablate  */
+@media  screen and (min-width:577px) and (max-width:768px) {
+    .nav-content{
+        flex-direction: column;
+    }
+    .header-content{
+        flex-direction: column;
+    }
+    .banner-child{
+        width: 100%;
+    }
+    .nav-container{
+        background-color: rgba(48, 48, 49, 0.829); 
+        height: 130px;
+        padding: 20px;
+    }
 }
