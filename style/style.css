@@ -49,14 +49,34 @@ nav ul{
 }
 .header-content{
     display: flex;
-    justify-content: center;
-    height: 600px;
-    border: 1px solid red;
+    align-items: center;
     width: 80%;
     margin: 0 auto;
     margin-top: 50px;
+    justify-content: space-between;
+    text-align: center;
+    background-color: rgba(23, 23, 23, 0.079);
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 4px rgba(39, 39, 39, 0.137);
 }
 .header-img{
-    width: 30vw;
+    width: 100%;
     border-radius: 20px;
+}
+.header{
+    width: 80%;
+}
+.banner-child{
+    width: 45%;
+}
+.button{
+    padding: 10px;
+    margin: 20px 15px 0 0;
+    background: transparent;
+    border-radius: 5px;
+    box-shadow: 3px 5px 4px rgba(30, 29, 29, 0.406);
+
+    border: 1px solid black;
+    cursor: pointer;
 }
