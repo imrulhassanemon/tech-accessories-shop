@@ -56,9 +56,10 @@ nav ul{
     justify-content: space-between;
     text-align: center;
     background-color: rgba(23, 23, 23, 0.079);
-    padding: 10px;
+    padding: 15px;
     border-radius: 15px;
     box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
+    position: relative;
 }
 .header-img{
     width: 100%;
@@ -75,8 +76,36 @@ nav ul{
     margin: 20px 15px 0 0;
     background: transparent;
     border-radius: 5px;
-    box-shadow: 3px 5px 4px rgba(30, 29, 29, 0.406);
+    box-shadow: 3px 5px 4px rgba(30, 29, 29, 0.51);
 
     border: 1px solid black;
     cursor: pointer;
+}
+.fifty-off{
+    background-color: rgba(0, 0, 0, 0.566);
+    color: rgba(255, 255, 255, 0.806);
+    width: max-content;
+    padding: 10px 50px;
+    border-radius: 10px;
+    font-size: 1.563rem;
+    position: absolute;
+    top: 45%;
+    left: 15%;
+}
+
+@media screen and (max-width:576px) {
+        .nav-bar{
+            display: none;
+        }
+        .header-content{
+            flex-direction: column;
+        }
+        .banner-child{
+            width: 100%;
+        }
+        .fifty-off{
+            top: 18%;
+            left: 20%;
+            font-size: 1.2rem;
+        }
 }
