@@ -134,6 +134,10 @@ nav ul{
             left: 20%;
             font-size: 1.2rem;
         }
+        .main-div{
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+        }
     
 }
 /* responsive for tablate  */
@@ -151,5 +155,9 @@ nav ul{
         background-color: rgba(48, 48, 49, 0.829); 
         height: 130px;
         padding: 20px;
+    }
+    .main-div{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
     }
 }
