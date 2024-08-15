@@ -169,7 +169,6 @@ nav ul{
 .qna{
     width: 80%;
     margin: 0 auto;
-    border: 1px solid rgb(26, 255, 0);
     display: flex;
     justify-content: space-between;
     background-color: #0816211e;
@@ -201,12 +200,25 @@ nav ul{
     border: none;
     box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.519);
     border-radius: 7px;
+    margin-top: 10px;
 }
 .form-text{
     width: 100%;
     margin-top: 20px;
 }
+.role-{
+    color: #36353590;
+}
+.input{
+    padding-left: 20px;
+}
+#selectt{
+    padding-left: 20px;
+}
 
+#text-area{
+    padding:10px 20px;
+}
 /* qna section end */
 
 
@@ -244,6 +256,24 @@ nav ul{
             gap: 70px;
         }
         /*  the qna section start*/
+        .qna{
+            flex-direction: column;
+            margin-top: 50px;
+            padding: 10px;
+        }
+        .input-sec{
+            width: 100%;
+        }
+        .input{
+            padding-left: 10px;
+        }
+        #selectt{
+            padding-left: 10px;
+        }
+        
+        #text-area{
+            padding:10px 10px;
+        }
         /* the qna section end  */
     
 }
