@@ -118,8 +118,53 @@ nav ul{
     border-radius: 50%;
     margin-top: 10px;
 }
+/* this is the footer section */
+.cart-1{
+    color: white;
+}
 
+.footer-container{
+    background-color: #081621;
+    margin-top: 50px;
+    color: white;
+}
+.footer-content{
+    width: 80%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding-top: 70px;
+}
+#icon{
+    color: #ffffff;
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 50%;
+}
+.first-foot{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 15px 120px 15px 60px;
+    border: 1px solid white;
+    width: max-content;
+    margin-top: 20px;
+    border-radius: 50px;
+}
+.sec-foot{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 15px 60px;
+    border: 1px solid white;
+    width: max-content;
+    margin-top: 20px;
+    border-radius: 50px;
 
+}
+.footer-container-first{
+    width: max-content;
+}
 
 /* responsive for mobail  */
 @media screen and (max-width:576px) {
